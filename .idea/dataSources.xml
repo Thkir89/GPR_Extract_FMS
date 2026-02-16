@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="@www.googleapis.com/bigquery/v2" uuid="078c983a-edd1-4de4-b6f4-a966e6216d03">
+      <driver-ref>bigquery</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.simba.googlebigquery.jdbc42.Driver</jdbc-driver>
+      <jdbc-url>jdbc:bigquery://https://www.googleapis.com/bigquery/v2:443</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="com.intellij.clouds.kubernetes.db.host.port" />
+        <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
+        <property name="ProjectId" value="ingka-fcs-cwds-prod" />
+        <property name="com.intellij.clouds.kubernetes.db.container.port" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost" uuid="ae224aa7-9504-46b1-9d07-f58ca73e1fb5">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="com.intellij.clouds.kubernetes.db.host.port" />
+        <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
+        <property name="com.intellij.clouds.kubernetes.db.container.port" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="postgres@localhost" uuid="efb96d31-fc46-4fc7-b238-12d40e068c75">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="com.intellij.clouds.kubernetes.db.host.port" />
+        <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
+        <property name="com.intellij.clouds.kubernetes.db.container.port" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="ingka-cff-slm-prod.slm" uuid="6a495269-d383-49d2-abd4-a81c8488be39">
+      <driver-ref>bigquery</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.simba.googlebigquery.jdbc42.Driver</jdbc-driver>
+      <jdbc-url>jdbc:bigquery://https://www.googleapis.com/bigquery/v2:443</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="com.intellij.clouds.kubernetes.db.host.port" />
+        <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
+        <property name="ProjectId" value="ingka-fcs-fcsal-dev" />
+        <property name="OAuthServiceAcctEmail" value="da-retail-dml-fcs-uops@ingka-fcs-fcsal-dev.iam.gserviceaccount.com" />
+        <property name="OAuthPvtKeyPath" value="$USER_HOME$/Downloads/ingka-fcs-fcsal-dev-f29d1c2155e4.json" />
+        <property name="com.intellij.clouds.kubernetes.db.container.port" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="ikea-ap-core-prod" uuid="03c4fcd8-cee8-4a96-aa20-699604eea4bf">
+      <driver-ref>bigquery</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.simba.googlebigquery.jdbc42.Driver</jdbc-driver>
+      <jdbc-url>jdbc:bigquery://https://www.googleapis.com/bigquery/v2:443</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="com.intellij.clouds.kubernetes.db.host.port" />
+        <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
+        <property name="ProjectId" value="ingka-fcs-fcsal-dev" />
+        <property name="OAuthServiceAcctEmail" value="da-retail-dml-fcs-uops@ingka-fcs-fcsal-dev.iam.gserviceaccount.com" />
+        <property name="OAuthPvtKeyPath" value="$USER_HOME$/Downloads/ingka-fcs-fcsal-dev-f29d1c2155e4.json" />
+        <property name="com.intellij.clouds.kubernetes.db.container.port" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="GIS" uuid="f4c31abd-6ab6-4c06-9ea4-ea650067b4a9">
+      <driver-ref>bigquery</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.simba.googlebigquery.jdbc42.Driver</jdbc-driver>
+      <jdbc-url>jdbc:bigquery://https://www.googleapis.com/bigquery/v2:443</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="ProjectId" value="ingka-fcs-fcsal-dev" />
+        <property name="OAuthServiceAcctEmail" value="da-retail-dml-fcs-uops@ingka-fcs-fcsal-dev.iam.gserviceaccount.com" />
+        <property name="OAuthPvtKeyPath" value="$USER_HOME$/Downloads/ingka-fcs-fcsal-dev-f29d1c2155e4.json" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
