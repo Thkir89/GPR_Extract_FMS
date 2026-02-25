@@ -278,6 +278,57 @@ WHERE t.businessUnit_Code IN UNNEST(p.bu_list)
 
 UNION ALL
 SELECT
+  'v2_sto_ttyp_461' AS table,
+  t.publish_time,
+  t.businessUnit_Code,
+  t.item_Number,
+  t.internalTransaction_CreationTimestamp,
+  t.internalTransaction_AdjustmentQuantity,
+  t.internalTransaction_Reason_Code,
+  t.internalTransaction_Reason_SubCode,
+  t.internalTransaction_TransactionEvent_EventCode,
+  t.internalTransaction_TransactionEvent_IKEACode
+FROM `ingka-ilo-ct-prod.dm_core_inventory_transaction.v2_sto_ttyp_461` AS t
+CROSS JOIN params p
+WHERE t.businessUnit_Code IN UNNEST(p.bu_list)
+  AND t.internalTransaction_CreationTimestamp BETWEEN p.from_ts AND p.to_ts
+
+UNION ALL
+SELECT
+  'v2_sto_ttyp_462' AS table,
+  t.publish_time,
+  t.businessUnit_Code,
+  t.item_Number,
+  t.internalTransaction_CreationTimestamp,
+  t.internalTransaction_AdjustmentQuantity,
+  t.internalTransaction_Reason_Code,
+  t.internalTransaction_Reason_SubCode,
+  t.internalTransaction_TransactionEvent_EventCode,
+  t.internalTransaction_TransactionEvent_IKEACode
+FROM `ingka-ilo-ct-prod.dm_core_inventory_transaction.v2_sto_ttyp_462` AS t
+CROSS JOIN params p
+WHERE t.businessUnit_Code IN UNNEST(p.bu_list)
+  AND t.internalTransaction_CreationTimestamp BETWEEN p.from_ts AND p.to_ts
+
+UNION ALL
+SELECT
+  'v2_sto_ttyp_463' AS table,
+  t.publish_time,
+  t.businessUnit_Code,
+  t.item_Number,
+  t.internalTransaction_CreationTimestamp,
+  t.internalTransaction_AdjustmentQuantity,
+  t.internalTransaction_Reason_Code,
+  t.internalTransaction_Reason_SubCode,
+  t.internalTransaction_TransactionEvent_EventCode,
+  t.internalTransaction_TransactionEvent_IKEACode
+FROM `ingka-ilo-ct-prod.dm_core_inventory_transaction.v2_sto_ttyp_463` AS t
+CROSS JOIN params p
+WHERE t.businessUnit_Code IN UNNEST(p.bu_list)
+  AND t.internalTransaction_CreationTimestamp BETWEEN p.from_ts AND p.to_ts
+
+UNION ALL
+SELECT
   'v2_sto_ttyp_471' AS table,
   t.publish_time,
   t.businessUnit_Code,

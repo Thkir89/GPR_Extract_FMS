@@ -48,7 +48,7 @@
         <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
         <property name="ProjectId" value="ingka-fcs-fcsal-dev" />
         <property name="OAuthServiceAcctEmail" value="da-retail-dml-fcs-uops@ingka-fcs-fcsal-dev.iam.gserviceaccount.com" />
-        <property name="OAuthPvtKeyPath" value="$USER_HOME$/Downloads/ingka-fcs-fcsal-dev-f29d1c2155e4.json" />
+        <property name="OAuthPvtKeyPath" value="$USER_HOME$/Downloads/ingka-fcs-fcsal-dev-8c6be54c0ec0.json" />
         <property name="com.intellij.clouds.kubernetes.db.container.port" />
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
