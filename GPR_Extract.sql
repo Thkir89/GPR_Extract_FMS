@@ -1,8 +1,8 @@
 WITH params AS (
   SELECT
     ['404', '415'] AS bu_list,
-    TIMESTAMP('2025-09-01 00:00:00') AS from_ts,
-    TIMESTAMP('2026-01-31 23:59:59') AS to_ts
+    TIMESTAMP('2026-02-01 00:00:00') AS from_ts,
+    TIMESTAMP('2026-02-28 23:59:59') AS to_ts
 )
 
 SELECT
